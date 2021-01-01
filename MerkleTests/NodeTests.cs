@@ -9,7 +9,7 @@ using System.Text;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using Clifton.Blockchain;
+using MerkleTreeCore;
 using Clifton.Core.ExtensionMethods;
 
 namespace MerkleTests

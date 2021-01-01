@@ -39,7 +39,7 @@ namespace MerkleTreeCore
             LeftNode = left;
             RightNode = right;
             LeftNode.Parent = this;
-            if (RightNode is not null) RightNode.Parent = this;
+            if (!(RightNode is null)) RightNode.Parent = this;
             ComputeHash();
         }
 
